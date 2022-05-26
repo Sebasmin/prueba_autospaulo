@@ -21,7 +21,7 @@ public class MyClass {
         String cadena= "\nmarca: " + this.marca + "\nmodelo: " + this.modelo + "\naño: " + this.año;
         return cadena;
     }
-
+git status
     public Boolean isPreowned(){
         LocalDate date = LocalDate.now();
         Integer year = date.getYear();
